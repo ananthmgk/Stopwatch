@@ -62,6 +62,6 @@ function reset() {
     minutes = '00';
     seconds = '00';
     centiseconds = '00';
-
+    location.reload();
     document.getElementById('stopwatch').innerHTML = minutes + ':' + seconds + ':' + centiseconds;
 }
